@@ -13,14 +13,19 @@ public class Coin {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     private int id;
+
     @Column(name = "NAME")
     private String name;
+
     @Column(name = "PRICE")
     private BigDecimal price;
+
     @Column(name = "QUANTITY")
     private BigDecimal quantity;
+
     @Column(name = "DATETIME")
     private Timestamp dateTime;
+
     public int getId() {
         return id;
     }
@@ -51,4 +56,5 @@ public class Coin {
     public void setDateTime(Timestamp dateTime) {
         this.dateTime = dateTime;
     }
+
 }
