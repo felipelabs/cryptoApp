@@ -48,4 +48,5 @@ public class CoinRepository {
         entityManager.remove(coin);
         return true;
     }
+
 }

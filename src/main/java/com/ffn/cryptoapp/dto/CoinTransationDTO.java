@@ -1,7 +1,6 @@
 package com.ffn.cryptoapp.dto;
 
 import java.math.BigDecimal;
-
 public class CoinTransationDTO {
     private String name;
     private BigDecimal quantity;

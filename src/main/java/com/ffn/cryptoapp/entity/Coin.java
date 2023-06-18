@@ -21,7 +21,6 @@ public class Coin {
     private BigDecimal quantity;
     @Column(name = "DATETIME")
     private Timestamp dateTime;
-
     public int getId() {
         return id;
     }
